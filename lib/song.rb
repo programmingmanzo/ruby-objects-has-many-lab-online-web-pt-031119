@@ -4,11 +4,9 @@ class Song
   
   attr_accessor :artist, :name  
   
-  @@all = []
-  
   def initialize(name)
-    @name = name 
-    @@all << @name 
+    @@all = [] 
+    @@all << name 
     #binding.pry 
   end 
   
