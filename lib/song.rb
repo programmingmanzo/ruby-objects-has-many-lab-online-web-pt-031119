@@ -8,7 +8,7 @@ class Song
     @name = name 
     @@all = [] 
     @@all << @name 
-    #binding.pry 
+    binding.pry 
   end 
   
   def Song.all
