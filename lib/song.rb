@@ -8,6 +8,14 @@ class Song
   
   def initialize(name)
     @@all << name 
+  end
+  
+  def song.all 
+    @@all 
+  end 
+  
+  def name 
+    @name 
   end 
   
   def artist_name 
