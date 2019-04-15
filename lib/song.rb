@@ -7,7 +7,8 @@ class Song
   @@all = [] 
   
   def initialize(name)
-    @@all << name
+    song = song.new(name)
+    @@all << song 
   end 
   
   def artist_name 
