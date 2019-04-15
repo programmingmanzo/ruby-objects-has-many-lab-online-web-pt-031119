@@ -1,3 +1,4 @@
+require 'pry' 
 
 class Song 
   
@@ -7,6 +8,7 @@ class Song
   
   def initialize(name)
     @@all << name 
+    binding.pry 
   end 
   
   def Song.all
