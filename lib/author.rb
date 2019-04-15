@@ -10,6 +10,20 @@ class Author
     @@posts = []
   end 
   
+  def add_post(post) 
+    
+    
+  end 
+  
+  def add_post_by_title(title)
+    
+  end 
+  
+  def self.post_count 
+    @@posts 
+  end 
+  
+  
 end
 
 
