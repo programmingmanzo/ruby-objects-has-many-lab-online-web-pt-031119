@@ -10,7 +10,7 @@ class Song
     #binding.pry 
   end 
   
-  def Song.all
+  def song.all
     @@all 
   end
   
