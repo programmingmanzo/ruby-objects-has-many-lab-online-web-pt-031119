@@ -4,15 +4,16 @@ class Song
   
   attr_accessor :artist, :name  
   
-  @@all = [] 
   
   def initialize(name)
-    @@all << name 
-    #binding.pry 
+    @name = name 
   end 
   
-  def Song.all
-    @@all 
+  def artist_name 
+    if @artist == nil 
+    nil
+    else
+      @artist.name 
+    end 
   end
-  
 end
