@@ -7,9 +7,7 @@ class Post
   @@all = []
   
   def initialize(title)
-    @@all << title
-    title.
-    
+    @@all << 
   end 
   
   def author_name 
